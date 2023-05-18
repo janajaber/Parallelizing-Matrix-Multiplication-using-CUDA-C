@@ -25,9 +25,9 @@ void printMatrix(float *matrix, int rows, int cols) {
 
 int main() {
     // Set matrix dimensions
-    int M = 10;
-    int N = 10;
-    int K = 10;
+    int M = 5000;
+    int N = 6000;
+    int K = 400;
 
     // Allocate memory on the host for input and output matrices
     float *A, *B, *C;
