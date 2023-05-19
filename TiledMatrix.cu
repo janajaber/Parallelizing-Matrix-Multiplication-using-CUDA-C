@@ -52,9 +52,9 @@ void printMatrix(float *matrix, int rows, int cols) {
 
 int main() {
     
-    int M = 4000;
-    int N = 4000;
-    int K = 4000;
+    int M = 10000;
+    int N = 30000;
+    int K = 20000;
 
     // Allocate memory on the host for input and output matrices
     float *A, *B, *C;
